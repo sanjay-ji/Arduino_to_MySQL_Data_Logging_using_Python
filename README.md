@@ -39,7 +39,7 @@ We need to install MySQL in our system. MySQL is an Open source database managem
 - Now, exit the mysql terminal:
     - mysql> exit
 
-## Opening MySQL and creating a database and a table
+### Opening MySQL and creating a database and a table
 
 1. Now onwards, to open mysql you will need to run following command
     - $ mysql -u root -p
@@ -56,7 +56,7 @@ We need to install MySQL in our system. MySQL is an Open source database managem
 6. To see the contents of a table:
     - mysql> select *from table_name
 
-## Installation of MySQL libraries python libraries
+### Installation of MySQL python libraries
 
 1. Install mysqlclient using pip3 for python 3 and before that install python development package:
     - $ sudo apt install python3-dev default-libmysqlclient-dev build-essential
@@ -68,3 +68,4 @@ We need to install MySQL in our system. MySQL is an Open source database managem
 3. Install pyserial library for serial communication using pip3 for python 3:
     - $ sudo pip3 install pyserial
 
+## 
