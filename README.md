@@ -14,9 +14,10 @@ In this work, we are sending data from the 'Arduino uno' over the serial port to
 
 We need to install MySQL in our system. MySQL is an Open source database management system(DBMS)
 
-1. Installation in Ubuntu 18.04 using terminal
-    -Check if Mysql is installed or not: 
-     $ mysql --version
+1. MySQL Installation in Ubuntu 18.04 using terminal
+        -Check if Mysql is installed or not: 
+        $ mysql --version
+- If not then follow below steps
 Update the package manager: 
 $ sudo apt update
 Install the mysql server application: 
@@ -38,10 +39,11 @@ mysql> FLUSH PRIVILEGES
 Now, exit the mysql terminal:
 mysql> exit
 
+## Opening MySQL and creating a database and a table
+
 Now onwards, to open mysql you will need to run following command
 $ mysql -u root -p
 Enter your password to access mysql.
-
 Create a database in mysql named test_db:
 mysql> create database test_db
 Select the database test_db to be used:
@@ -55,15 +57,15 @@ mysql> show tables
 To see the contents of a table:
 mysql> select *from table_name
 
-Python: Installation of MySQL related libraries in python:
+## Python: Installation of MySQL related libraries in python:
 
-Install mysqlclient using pip3 for python 3 and before that install python development package:
-$ sudo apt install python3-dev default-libmysqlclient-dev build-essential
-$ pip3 install mysqlclient
+- Install mysqlclient using pip3 for python 3 and before that install python development package:
+    - $ sudo apt install python3-dev default-libmysqlclient-dev build-essential
+    - $ pip3 install mysqlclient
 
-Install mysql connector:
-$ sudo pip3 install mysql-connector-python
+- Install mysql connector:
+    - $ sudo pip3 install mysql-connector-python
 
-Install pyserial library for serial communication using pip3 for python 3:
-sudo pip3 install pyserial
+- Install pyserial library for serial communication using pip3 for python 3:
+    - $ sudo pip3 install pyserial
 
