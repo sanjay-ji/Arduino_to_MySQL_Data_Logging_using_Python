@@ -12,7 +12,7 @@ In this work, we are sending data from the 'Arduino uno' over the serial port to
 
 ## Setting up the Computer Side
 
-We need to install MySQL in our system. MySQL is an Open source database management system(DBMS)
+### MySQL installation and Initial setup
 
 1. MySQL Installation in Ubuntu 18.04 using terminal
 - Check if Mysql is installed or not: 
@@ -68,4 +68,22 @@ We need to install MySQL in our system. MySQL is an Open source database managem
 3. Install pyserial library for serial communication using pip3 for python 3:
     - $ sudo pip3 install pyserial
 
-## 
+## Setting up Arduino Uno Board
+
+1. Download the "serial_comm_script.ino" file to your computer.
+2. Open Arduino IDE and open the "serial_comm_script.ino" file in IDE.
+3. Connect your Arduino Uno board to the computer through USB cable.
+4. In Arduino IDE goto Tools>Port and note down the port number. In our case it is "/dev/ttyACM0"
+5. Verify and Upload the code in Arduino Uno Board.
+6. Keep the Arduino Board connected to the computer all the time.
+7. Arduino board is ready for this example work.
+
+## Running the process
+
+1. Download the "serial_comm_script.py" file to your computer.
+2. Open python IDLE or any other python IDE.
+3. Open the "serial_comm_script.py" file in IDLE(or your IDE).
+4. Update the port number that you have noted in previous steps (if it is different).
+5. Run the script.
+6. In a different terminal open MySQL and check the contents of the table to check the data logging.
+
