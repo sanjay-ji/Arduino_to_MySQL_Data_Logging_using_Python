@@ -83,7 +83,8 @@ In this work, we are sending data from the 'Arduino uno' over the serial port to
 1. Download the "serial_comm_script.py" file to your computer.
 2. Open python IDLE or any other python IDE.
 3. Open the "serial_comm_script.py" file in IDLE(or your IDE).
-4. Update the port number that you have noted in previous steps (if it is different).
-5. Run the script.
-6. In a different terminal open MySQL and check the contents of the table to check the data logging.
+4. Enter your mysql password in place of "your password".
+5. Update the port number that you have noted in previous steps (if it is different).
+6. Run the script.
+7. In a different terminal open MySQL and check the contents of the table to check the data logging.
 

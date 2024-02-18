@@ -5,7 +5,7 @@ import time
 db = MySQLdb.connect(host= "127.0.0.1", # usually "localhost"
 port = 3306, # default port of MySQL.
 user ="root", # username
-passwd="Matrix789", # password of MySQL
+passwd="your_password", # password of MySQL
 db="test_db") # name of the database used here
 cur = db.cursor() # Opening and closing connection with database.
 
